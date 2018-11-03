@@ -1,0 +1,43 @@
+/* All elements with the attribute "data-beer"
+ are bolded */
+[data-beer] {
+  font-weight: bold;
+}
+
+/* All elements with the attribute "data-beer"
+   with the exact value "america" are given a blue
+   background color */
+[data-beer="american"] {
+  background-color: blue;
+  color: white;
+}
+
+/* All elements with the attribute "data-beer-profile",
+   containing the value "hoppy", even among others,
+   are given a red text color */
+[data-beer-profile~="hoppy"] {
+  color: red;
+}
+
+
+/* Change what a link should look like when hovered over with the mouse */
+a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
+/* Change what a link should look like when its been visited */
+a:visited {
+  color: pink;
+  text-decoration: none;
+}
+
+/* target all <p> tags within a <div> and make the text red */
+div p {
+  color: red;
+}
+
+/* target all <div> and <p> tags on the page and make their text blue */
+div, p {
+  color: blue;
+}

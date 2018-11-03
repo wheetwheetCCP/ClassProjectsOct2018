@@ -1,0 +1,29 @@
+div {
+    border: 1px solid black;
+}
+
+td{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.red{
+  background-color: red;
+  border-top-left-radius: 100%;
+}
+
+.yellow{
+  background-color: yellow;
+  border-top-right-radius: 100%;
+}
+
+.blue{
+  background-color: blue;
+  border-bottom-left-radius: 100%;
+}
+
+.green{
+  background-color: green;
+  border-bottom-right-radius: 100%;
+}

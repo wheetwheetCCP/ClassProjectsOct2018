@@ -1,0 +1,15 @@
+ol {
+  color: pink;
+}
+
+a{
+  color: blue;
+}
+
+ol a:hover{
+  color: red;
+}
+
+a:hover{
+  color: green;
+}
